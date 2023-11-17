@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./alpine.js"></script>
+    <title>ENTRADA</title>
+</head>
+
+<body>
+    <div x-data="{ label: 'Hello' }" x-effect="console.log(label)">
+        <button @click="label += ' World!'">Change Message</button>
+    </div>
+</body>
+
+</html>
